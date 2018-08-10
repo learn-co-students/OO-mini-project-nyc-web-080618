@@ -38,7 +38,9 @@ class Ingredient
         most_common_ingredient_allergy = ingredient_name
       end
     end
-    most_common_ingredient_allergy
+    allergen_hash.select do |ingredient_name, count|
+      count == largest_count
+    end.keys
   end
 
 end # Ingredient
