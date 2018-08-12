@@ -20,7 +20,7 @@ class Ingredient
     end
 
     counter.key(counter.values.max)
-  
+
   end
 
 
