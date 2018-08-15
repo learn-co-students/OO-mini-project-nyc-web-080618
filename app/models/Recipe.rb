@@ -23,7 +23,7 @@ class Recipe
       end
     end
     new_hash.key(new_hash.values.max)
-    #binding.pry
+    #binding.p ry
   end
 
   def users
